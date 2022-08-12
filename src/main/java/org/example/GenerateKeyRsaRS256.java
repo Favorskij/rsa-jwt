@@ -1,4 +1,4 @@
-package org.example.generate1;
+package org.example;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;

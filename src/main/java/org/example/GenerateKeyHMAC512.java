@@ -1,4 +1,4 @@
-package org.example.Generate2;
+package org.example;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
