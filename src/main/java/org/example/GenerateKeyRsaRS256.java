@@ -19,7 +19,8 @@ public class GenerateKeyRsaRS256 {
         KeyPairGenerator keyGenerator = KeyPairGenerator.getInstance("RSA");
         keyGenerator.initialize(2048);
 
-        KeyPair kp = Keys.keyPairFor(SignatureAlgorithm.RS256);
+//        KeyPair kp = Keys.keyPairFor(SignatureAlgorithm.RS256);
+        KeyPair kp = keyGenerator.generateKeyPair();
 
         PublicKey publicKey = kp.getPublic();
         PrivateKey privateKey = kp.getPrivate();
